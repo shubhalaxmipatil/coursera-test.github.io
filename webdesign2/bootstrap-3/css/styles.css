@@ -1,10 +1,10 @@
 #header-nav{
- background-color: orange;
+ background-color: #995400;
  border-radius: 0;
  border: 0;
 }
 body{
-	background-color: maroon;
+	background-color: #60270b;
 	font-family: 'Oxygen', sans-serif;
 }
 #logo-class{
@@ -78,4 +78,57 @@ body{
 {
 	clear:both;
 	margin-top: -30px;
+}
+.jumbtron{
+	border: 2px solid #3f0c1f;
+	box-shadow: 0 0 50px #3f0c1f;
+}
+@media(min-width: 1200px){
+	.jumbtron{
+		background-image: url("../image/992.jpg");
+		height: 678px;
+	}
+}
+@media(min-width: 992px)and (max-width: 1199px){
+	#logo-img{
+		background: url('../image/logocircle.jpg') no-repeat;
+		width: 100px;
+		height: 100px;
+		margin: 5px 5px 5px 0px;
+	}
+	.jumbtron{
+		background-image: url();
+	}
+}
+	@media(max-width: 767px){
+		.navbar-brand{
+			padding-top: 10px;
+			height: 80px;	}
+	}
+	.navbar-brand h1{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.navbar-brand p{
+		font-size: 0.6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img{
+		height: 20px;
+	}
+#bs-example-navbar-collapse-1 a{
+	font-size: 1.2em;
+
+}
+#bs-example-navbar-collapse-1 a span{
+	font-size: 1em;
+	margin-right: 5px;
+}
+#call-btn{
+	margin: 0px 20px;
+	padding: 10px;
+	border:	2px solid #fff;
+	background-color: #995400;
+	color: 951c49;
+
 }
