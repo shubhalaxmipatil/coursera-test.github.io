@@ -1,3 +1,5 @@
+
+/*header*/
 #header-nav{
  background-color: #995400;
  border-radius: 0;
@@ -22,7 +24,7 @@ body{
 .navbar-brand h1{
 	font-family: 'Lora', serif;
 	color: #557c3e;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -79,12 +81,84 @@ body{
 	clear:both;
 	margin-top: -30px;
 }
-.jumbtron{
+/*end header*/
+/*footer */
+.pannel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	margin-right:  -10px;
+	background-color: #222;
+	border-top: 0;
+	color:#fff;
+}
+
+.pannel-footer div.row{
+	margin-bottom: 10px;
+}
+#hours, #address{
+	line-height: 2;
+}
+#hours>span, #address>span {
+	font-size: 1.3em;
+}
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.6;
+}
+#testimonials{
+	font-style: italic;
+}
+#testimonials p:nth-child(2){
+	margin-top: 25px;
+}
+/*end of footer*/
+/*home page*/
+.container .jumbotron{
 	border: 2px solid #3f0c1f;
 	box-shadow: 0 0 50px #3f0c1f;
 }
+
+#menu-tile, #speacial-tile, #map-tile {
+	height:250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border:2px solid #3f0c1f;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #speacial-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc; 
+}
+
+#menu-tile{
+	background:url('../image/salad1.jpg') no-repeat;
+	background-position: center;
+
+}
+
+#speacial-tile{
+	background:url('../image/french.png') no-repeat;
+	background-position: center;
+
+}
+#menu-tile span, #speacial-tile span, #map-tile span{
+	position: absolute;
+	bottom:0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+/*end home page*/
 @media(min-width: 1200px){
-	.jumbtron{
+	.container .jumbotron.jumbotron{
 		background-image: url("../image/992.jpg");
 		height: 678px;
 	}
@@ -96,18 +170,30 @@ body{
 		height: 100px;
 		margin: 5px 5px 5px 0px;
 	}
-	.jumbtron{
-		background-image: url();
+	.container .jumbotron{
+		background-image: url("../image/992.jpg");
+		height: 578px;
+
 	}
 }
+
+	@media(min-width: 768px)and (max-width: 991px)
+	{
+		.container .jumbotron{
+			background-image: url("../image/small.jpg");
+		
+		height: 278px;
+		}
+	}
 	@media(max-width: 767px){
 		.navbar-brand{
 			padding-top: 10px;
-			height: 80px;	}
-	}
+			height: 80px;	
+		}
+		
 	.navbar-brand h1{
 		padding-top: 10px;
-		font-size: 5vw;
+		font-size: 6vw;
 	}
 	.navbar-brand p{
 		font-size: 0.6em;
@@ -132,3 +218,21 @@ body{
 	color: 951c49;
 
 }
+.pannel-footer section{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.pannel-footer section:nth child(3){
+	margin-bottom: 0;
+}
+.pannel-footer section hr{
+	width: 50%;
+}
+.container .jumbotron{
+	border-top: 30px;
+	padding:0px;
+	
+}
+
+}
+	
