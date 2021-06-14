@@ -1,0 +1,41 @@
+.navbar-header{
+	background-color: #66cc99;
+	
+}
+#nav-list{
+	background-color: #ccffff;
+	text-align: center;
+}
+.container{
+	background-color: dimgray;
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 100%;
+}
+.row{
+	font-size: 1.1em;
+	height: 1000px;
+	
+}
+#title{
+	font-weight:bold;
+	font-size: 2em;
+
+}
+
+@media (min-width: 1200px)
+{
+	.col-xs-12{
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 90%;
+	}
+}
+@media(max-width: 780px)
+{
+	.container{
+		margin-left:50px;
+		margin-right: 50px;
+		width: 80%;
+	}
+}
