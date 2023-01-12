@@ -1,0 +1,50 @@
+.navbar-header{
+	background-color: #66cc99;
+	
+}
+#nav-list{
+	background-color: #ccffff;
+	text-align: center;
+}
+#first,#second,#third{
+	background-color: lightgray;
+	margin-top: 20px;
+	border: 10px solid white;
+	/*margin-left: 10px;*/
+}
+#fish,#chic,#meat{
+	
+	font-size: 2em;
+	font-weight: bold;
+
+}
+.row p{
+    text-align: left;
+}
+/*.row{
+	font-size: 1.1em;
+	height: 1000px;
+	
+}
+#title{
+	font-weight:bold;
+	font-size: 2em;
+
+}
+
+@media (min-width: 1200px)
+{
+	.col-xs-12{
+		margin-left: 10px;
+		margin-right: 10px;
+		width: 90%;
+	}
+}
+@media(max-width: 780px)
+{
+	.container{
+		margin-left:50px;
+		margin-right: 50px;
+		width: 80%;
+	}
+}*/
