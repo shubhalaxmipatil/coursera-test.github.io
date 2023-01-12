@@ -247,7 +247,7 @@ h3.menu-item-tile{
 }
 @media(min-width: 992px)and (max-width: 1199px){
 	#logo-img{
-		background: url('../image/logocircle.jpg') no-repeat;
+		background: url("../image/logocircle.jpg") no-repeat;
 		width: 100px;
 		height: 100px;
 		margin: 5px 5px 5px 0px;
@@ -284,6 +284,7 @@ h3.menu-item-tile{
 	.navbar-brand p img{
 		height: 20px;
 	}
+}
 #bs-example-navbar-collapse-1 a{
 	font-size: 1.2em;
 

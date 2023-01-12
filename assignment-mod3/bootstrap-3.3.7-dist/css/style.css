@@ -6,13 +6,22 @@
 	background-color: #ccffff;
 	text-align: center;
 }
-.container{
-	background-color: dimgray;
-	margin-left: 15px;
-	margin-right: 15px;
-	width: 100%;
+#first,#second,#third{
+	background-color: lightgray;
+	margin-top: 20px;
+	border: 10px solid white;
+	/*margin-left: 10px;*/
 }
-.row{
+#fish,#chic,#meat{
+	
+	font-size: 2em;
+	font-weight: bold;
+
+}
+.row p{
+    text-align: left;
+}
+/*.row{
 	font-size: 1.1em;
 	height: 1000px;
 	
@@ -38,4 +47,4 @@
 		margin-right: 50px;
 		width: 80%;
 	}
-}
+}*/
